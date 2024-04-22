@@ -6,7 +6,7 @@
     "i_user": "",
     "proxy": null,
     "userAgent": "Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36",
-    "intervalGetNewCookie": 4320,
+    "intervalGetNewCookie": 1440,
     "notes": "time the system automatically retrieves new cookies from email/password, unit is minute, if you set null, the system will not automatically retrieve new cookies, it saves you from having to manually change your cookie every time it expires. recommended set to 1440 (1day) or 4320 (3day).TO BE ABLE TO USE THIS FEATURE YOU NEED TO ENTER THE ACCOUNT PASSWORD ABOVE"
   },
   "antiInbox": false,
@@ -18,6 +18,8 @@
   },
   "adminBot": [
     "61558522534273",
+    "",
+    "",
     ""
   ],
   "whiteListMode": {
@@ -25,12 +27,8 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "OWNER": "Cliff Vincent",
-  "AGE": "18",
-  "GENDER": "MALE",
-  "nickNameBot": "ayanbot",
-  "FACEBOOK": "https://m.me/MR.AYAN.2X",
-  "prefix": "/",
+  "nickNameBot": "➪ A Y A N B O T",
+  "prefix": ".",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
@@ -41,15 +39,15 @@
   "timeZone": "Asia/Ho_Chi_Minh",
   "credentials": {
     "gmailAccount": {
-      "email": "ayanbotbeluga@gmail.com",
-      "clientId": "335951889803-q0sqvpqjire12vl0c1drqpvq6trqe7qi.apps.googleusercontent.com",
-      "clientSecret": "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",
-      "refreshToken": "1//04vKSsirtbMjRCgYIARAAGAQSNwF-L9Ir45Y2gJy6rg7wvfCbzF5fTFQxOhV83N6jQC-N5n6S-rNnEUgujiuWu4OvrLEbmELMcSI",
+      "email": "tchindaazice@gmail.com",
+      "clientId": "930308033521-sv8r360ibt5dgr5n1l5oogb7kom9vreq.apps.googleusercontent.com",
+      "clientSecret": "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",
+      "refreshToken": "1//04sAoEJE3Iq3tCgYIARAAGAQSNwF-L9IrX7QyowrYemGsBJkK8Z_atg8ih6LtaFS-4ttMQ4a697c4XWZvaAOulWyTCNQDPrpvdcg",
       "apiKey": ""
     },
     "gRecaptcha": {
-      "siteKey": "6LcEPTMpAAAAAKRhQmTp03g4rkq-U6jXs8E8rDf5",
-      "secretKey": "6LcEPTMpAAAAAKRhQmTp03g4rkq-U6jXs8E8rDf5"
+      "siteKey": "6LfHuRopAAAAANqF1SB3YAX-zsg-vkMP5x9V6KgA",
+      "secretKey": "6LfHuRopAAAAADpbiRwSXJGOm9dtlgFDAqcKAAc2"
     }
   },
   "dashBoard": {
@@ -59,13 +57,12 @@
   },
   "serverUptime": {
     "enable": false,
-    "port": 3000,
+    "port": 3001,
     "socket": {
       "enable": true,
       "channelName": "uptime",
-      "verifyToken": "AJ3mQqe9wrL8sF5NAwJuSteH",
-			"url": ""
-		}
+      "verifyToken": ""
+    }
   },
   "autoRestart": {
     "time": 3600000,
@@ -73,8 +70,8 @@
   },
   "autoUptime": {
     "enable": true,
-    "timeInterval": 8640,
-    "url": "${process.env.DevURL}.sisko.replit.dev/",
+    "timeInterval": 500,
+    "url": "https://uptime.botrandom30.repl.co",
     "notes": "the value of timeInterval is seconds, url is the url you want to send the request to (automatically detected for hosting glitch or replit)"
   },
   "autoLoadScripts": {
@@ -116,7 +113,9 @@
     "wrongCommand": false,
     "adminOnly": false,
     "threadBanned": false,
-    "userBanned": false
+    "userBanned": false,
+    "needRoleToUseCmdOnReply": false,
+    "needRoleToUseCmdOnReaction": false
   },
   "logEvents": {
     "disableAll": false,
@@ -140,11 +139,5 @@
     "autoMarkDelivery": false,
     "autoReconnect": true,
     "notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
-  },
-  "whiteListModeThread": {
-    "enable": false,
-    "whiteListThreadIds": [],
-    "notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",
-    "how_it_work": "if you enable both whiteListMode and whiteListModeThread, the system will check if the user is in whiteListIds, then check if the thread is in whiteListThreadIds, if one of the conditions is true, the user can use the bot"
   }
 } 
