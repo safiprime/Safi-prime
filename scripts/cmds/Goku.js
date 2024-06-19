@@ -15,15 +15,15 @@ module.exports = {
       const responses = [
         {
           body: "𝙳𝚘𝚗'𝚝 𝚌𝚊𝚕𝚕 𝙶𝙾𝙺𝚄 𝙱𝙻𝙰𝙲𝙺 𝚒𝚏 𝚑𝚎 𝚒𝚜𝚗'𝚝 𝚑𝚎𝚛𝚎 !!",
-          gif: "https://i.ibb.co/RN7HcSY/image.gif"
+          gif: "https://i.postimg.cc/QVGxBMy2/goku-black-1.gif"
         },
         {
           body: "𝙶𝙾𝙺𝚄 𝙱𝙻𝙰𝙲𝙺 𝚒𝚜 𝚋𝚞𝚜𝚢 𝚍𝚘𝚗'𝚝 𝚋𝚊𝚛𝚔",
-          gif: "https://i.imgur.com/mQ7SbdR.gif"
+          gif: "https://i.postimg.cc/FKdrx3XM/goku-black-zamasu.gif"
         },
         {
           body: "𝚍𝚘𝚗'𝚝 𝚌𝚊𝚕𝚕 𝚖𝚢 𝚗𝚊𝚖𝚎 𝚢𝚘𝚞 𝚊𝚛𝚎𝚗'𝚝 𝚠𝚘𝚛𝚝𝚑𝚢 𝚝𝚘 𝚌𝚊𝚕𝚕 𝚖𝚢 𝚗𝚊𝚖𝚎?",
-          gif: "https://i.imgur.com/gHJGMoK.gif"
+          gif: "https://i.postimg.cc/0Nsv73Zw/goku-black-dbs.gif"
         }
         // Add more responses as needed
       ];
@@ -36,4 +36,4 @@ module.exports = {
       });
     }
   }
-    }
+}
